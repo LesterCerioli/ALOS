@@ -9,8 +9,7 @@ namespace ALOS.Domain.Models.HR
 {
     public class EducationLevel : Entity, IAggregateRoot
     {
-
-        
+               
         
         public EducationLevel(Guid id, string descricao) 
         {
