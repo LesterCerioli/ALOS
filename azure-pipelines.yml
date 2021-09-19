@@ -23,7 +23,7 @@ jobs:
     inputs:
       command: test
       arguments:  '--logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:Exclude=[xunit.*]*%2c[System.*]*'
-      projects: '.ALOS/test/**/*.csproj'
+      projects: 'ALOS/test/**/*.csproj'
       nobuild: true
   - task: DotNetCoreCLI@2
     inputs:
