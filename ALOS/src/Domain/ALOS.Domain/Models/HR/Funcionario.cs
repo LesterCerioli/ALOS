@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ALOS.Domain.ValueObjects;
+using ALOS.Domain.Models.Core;
 
 namespace ALOS.Domain.Models.HR
 {
@@ -15,7 +17,7 @@ namespace ALOS.Domain.Models.HR
         protected Funcionario() { }
         public Name Name { get; private set; }
         public Address Address { get; private set; }
-        public TituloEleito TituloEleitor { get; private set; }
+        public TituloEleitor TituloEleitor { get; private set; }
         
     }
 }
