@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ALOS.Domain.ServiceDeskContext
+namespace ALOS.Domain.Models.ServiceDesk
 {
     public class Categoria : Entity, IAggregateRoot
     {
@@ -25,6 +25,7 @@ namespace ALOS.Domain.ServiceDeskContext
         public string SubCategoria2 { get; private set; }
         public string SubCategoria3 { get; private set; }
         public bool Ativo { get; private set; }
-        
+
+
     }
 }

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ALOS.DomainCore\ALOS.DomainCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Core\" />
   </ItemGroup>
 
 </Project>

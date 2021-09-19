@@ -1,11 +1,11 @@
-﻿using NetDevPack.Domain;
+using NetDevPack.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ALOS.Domain.ServiceDeskContext
+namespace ALOS.Domain.Models.ServiceDesk
 {
     public class OrdemServico : Entity, IAggregateRoot
     {
@@ -20,5 +20,6 @@ namespace ALOS.Domain.ServiceDeskContext
         public string OSNumero { get; private set; }
         public Categoria Categoria { get; private set; }
         public IList<Customer> Customers { get; private set; } = new List<Customer>();
+        
     }
 }

@@ -1,4 +1,4 @@
-﻿using ALOS.Domain.Enums;
+using ALOS.Domain.Enums;
 using NetDevPack.Domain;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ALOS.Domain.Core
+namespace ALOS.Domain.Models.Core
 {
     public class Address : Entity, IAggregateRoot
     {
@@ -45,6 +45,6 @@ namespace ALOS.Domain.Core
         {
             return $"{Street}, {Number} - {City}/{State}";
         }
+        
     }
 }
-
