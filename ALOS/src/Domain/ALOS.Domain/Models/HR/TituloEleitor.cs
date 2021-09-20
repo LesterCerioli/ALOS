@@ -12,17 +12,17 @@ namespace ALOS.Domain.Models.HR
     {
         
         
-        public TituloEleitor(Guid id, string numeroTitulo, string zoma, string secao) 
+        public TituloEleitor(Guid id, string numeroTitulo, string zona, string secao) 
         {
             Id = id;
-            this.NumeroTitulo = numeroTitulo;
-            Zoma = zoma;
+            NumeroTitulo = numeroTitulo;
+            Zona = zona;
             Secao = secao;
                
         }
-                public string NumeroTitulo { get; private set; }
+        public string NumeroTitulo { get; private set; }
         protected TituloEleitor() {}
-        public string Zoma { get; private set; }
+        public string Zona { get; private set; }
         public string Secao { get; private set; }
 
         
